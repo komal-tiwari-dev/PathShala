@@ -9,7 +9,7 @@ import { store } from "./Redux/Store";
 import { Provider } from "react-redux";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8080/";
+axios.defaults.baseURL = "https://fathomless-ravine-03880.herokuapp.com/";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
